@@ -15,10 +15,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void lanzarPodio(View view){
-        Intent i = new Intent(this, Posicion.class);
+        Intent i = new Intent(this, Puntuacion.class);
         startActivity(i);
     }
-
+    public void lanzarConsulta(View view){
+        Intent a = new Intent(this, Consulta.class);
+        startActivity(a);
+    }
 
 
 }
